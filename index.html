@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentes de Natal</title>
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="./assets/css/base/global.css" />
+    <link rel="stylesheet" href="./assets/css/layout/banner.css" />
+    <link rel="stylesheet" href="./assets/css/layout/cards.css" />
+    <link rel="stylesheet" href="./assets/css/layout/contato.css" />
+</head>
+<body>
+    <header class="banner">
+        <div class="container">
+            <div class="banner__conteudo">
+                <div class="banner__texto-wrapper">
+                    <h1 class="banner__titulo">Lorem ipsum dolor sit amet</h1>
+                    <p class="banner__descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu massa sit amet augue consectetur ullamcorper non ac massa.</p>
+                    <button class="banner__button">Botão</button>
+                </div>
+
+                <img class="banner__imagem" src="./assets/images/presente-ilustracao.svg" alt="Imagem ilustrativa de um presente com laço roxo e em sua volta há alguns personagens." />
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <ul class="cards">
+                <li class="card">
+                    <div class="card__header">
+                        <div class="card__header-img" title="background de cor vermelha"></div>
+                    </div>
+                    <div class="card__body">
+                        <h2 class="card__body-titulo">Titulo do card</h2>
+                        <p class="card__body-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__header">
+                        <div class="card__header-img" title="background de cor azul claro"></div>
+                    </div>
+                    <div class="card__body">
+                        <h2 class="card__body-titulo">Titulo do card</h2>
+                        <p class="card__body-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__header">
+                        <div class="card__header-img" title="background de cor rosa claro"></div>
+                    </div>
+                    <div class="card__body">
+                        <h2 class="card__body-titulo">Titulo do card</h2>
+                        <p class="card__body-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__header">
+                        <div class="card__header-img" title="background de cor verde claro"></div>
+                    </div>
+                    <div class="card__body">
+                        <h2 class="card__body-titulo">Titulo do card</h2>
+                        <p class="card__body-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__header">
+                        <div class="card__header-img" title="background de cor amarelo claro"></div>
+                    </div>
+                    <div class="card__body">
+                        <h2 class="card__body-titulo">Titulo do card</h2>
+                        <p class="card__body-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__header">
+                        <div class="card__header-img" title="background de cor azul escuro"></div>
+                    </div>
+                    <div class="card__body">
+                        <h2 class="card__body-titulo">Titulo do card</h2>
+                        <p class="card__body-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+         <div class="container">
+             <form class="contato">
+                <fieldset class="contato__wrapper">
+                    <legend class="contato__titulo">Entre em contato</legend>
+                    <div class="contato__input-wrapper">
+                        <label for="nome" class="contato__label sr-only">Nome</label>
+                        <input type="text" id="nome" placeholder="Nome" class="contato__input" />
+                    </div>
+                    <div class="contato__input-wrapper">
+                        <label for="email" class="contato__label sr-only">Email</label>
+                        <input type="email" id="email" placeholder="Email" class="contato__input" />
+                    </div>
+                    <div class="contato__input-wrapper">
+                        <label for="telefone" class="contato__label sr-only">telefone</label>
+                        <input type="tel" id="telefone" placeholder="Telefone" class="contato__input" />
+                    </div>
+                    <div class="contato__textarea-wrapper">
+                        <label for="mensagem" class="contato__label sr-only">Mensagem</label>
+                        <textarea cols="30" rows="10" id="mensagem" placeholder="Mensagem" class="contato__textarea"></textarea>
+                    </div>
+                    <button class="contato__button">Enviar mensagem</button>
+                </fieldset>
+             </form>
+         </div>
+    </footer>
+</body>
+</html>

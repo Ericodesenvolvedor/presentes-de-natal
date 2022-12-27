@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    /* CORES */
+    --bg-primary: #D7D4FF;
+    --bg-secondary: #F9F9F9;
+    --bg-card-01: #FF6363;
+    --bg-card-02: #63ECFF;
+    --bg-card-03: #F363FF;
+    --bg-card-04: #63FF73;
+    --bg-card-05: #FFDD63;
+    --bg-card-06: #6663FF;
+
+    --bg-button: #6C63FF;
+    --color-button: #FFFFFF;
+
+    --color-title: #2B2B2B;
+    --color-description: #555555;
+
+    --color-input: #6E7275;
+    --bg-input: #FFFFFF;
+
+    /* FONT-SIZE */
+    --fs-banner-title: 3.6rem;
+    --fs-banner-description: 1.9rem;
+    --fs-banner-button: 2rem;
+
+    --fs-card-title: 2.4rem;
+    --fs-card-description: 1.8rem;
+
+    --fs-contato-title: 3.2rem;
+    --fs-contato-input: 1.8rem;
+
+    /* FONTES-FAMILY */
+    --ff-merriweather: 'Merriweather', serif;
+    --ff-lato: 'Lato', sans-serif;;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--bg-secondary);
+}
+
+h1, h2, legend {
+    font-family: var(--ff-merriweather);
+}
+
+p, button, input {
+    font-family: var(--ff-lato);
+}
+
+button {
+    padding: 1.4rem;
+    background-color: var(--bg-button);
+    color: var(--color-button);
+    border: none;
+    border-radius: 5px;
+    font-size: var(--fs-banner-button);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+    clip: rect(0, 0, 0);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: fit-content;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        max-width: 90%;
+    }
+}

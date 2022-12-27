@@ -1,0 +1,57 @@
+.banner {
+    background-color: var(--bg-primary);
+    padding: 4rem 0;
+    width: 100%;
+}
+
+.banner__conteudo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.banner__texto-wrapper {
+    max-width: 390px;
+    width: 100%;
+}
+
+.banner__titulo {
+    color: var(--color-title);
+    font-size: var(--fs-banner-title);
+    font-weight: 400;
+    margin-bottom: 1.7rem;
+}
+
+.banner__descricao {
+    color: var(--color-description);
+    font-size: var(--fs-banner-description);
+    margin-bottom: 4.5rem;
+}
+
+.banner__button {
+    width: 15.5rem;
+}
+
+.banner__imagem {
+    display: block;
+    max-width: 50rem;
+    height: 100%;
+}
+
+@media screen and (max-width:880px){    
+    .banner__conteudo {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .banner__button {
+        margin-bottom: 5rem;
+    }
+
+    .banner__imagem {
+        align-self: center;
+        max-width: 30rem;
+    }
+}
