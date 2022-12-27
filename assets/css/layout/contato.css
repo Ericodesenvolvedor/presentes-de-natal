@@ -47,3 +47,9 @@ footer {
 .contato__button {
     width: 100%;
 }
+
+@media screen and (max-width:880px){    
+    footer {
+        min-height: fit-content;
+    }
+}
